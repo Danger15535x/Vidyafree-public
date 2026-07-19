@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Details - VidyaFree</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><span class="logo-icon">📚</span> VidyaFree</a>
+      <div class="hamburger" onclick="toggleNav()">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sample-papers.html">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero" style="padding-top: 100px; padding-bottom: 40px;">
+    <h1 id="classTitle" style="font-size: 2.2rem;">Class Details</h1>
+    <p>Subjects, chapters, and available papers</p>
+  </section>
+
+  <section class="section">
+    <h2 style="margin-bottom: 1rem;">Subjects</h2>
+    <div class="subject-grid" id="classSubjects"></div>
+  </section>
+
+  <section class="section">
+    <h2 style="margin-bottom: 1rem;">Available Papers</h2>
+    <div class="papers-grid" id="classPapers"></div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>📚 VidyaFree</h3>
+      <div class="footer-bottom">© 2024 VidyaFree</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

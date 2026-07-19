@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VidyaFree - Free Study Materials for Classes 6-12</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><span class="logo-icon">📚</span> VidyaFree</a>
+      <div class="hamburger" onclick="toggleNav()">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="sample-papers.html">Sample Papers</a></li>
+        <li><a href="sample-papers.html">NCERT Books</a></li>
+        <li><a href="sample-papers.html">eBooks</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Free Study Materials<br>for Every Student</h1>
+    <p>Access NCERT books, sample papers, and eBooks for Classes 6-12. No sign-up required.</p>
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search books, papers, subjects..." autocomplete="off">
+      <div class="search-suggestions" id="searchSuggestions"></div>
+    </div>
+    <div class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-number" data-count="500">0</div>
+        <div class="stat-label">Books & Papers</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-count="12">0</div>
+        <div class="stat-label">Subjects Covered</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-count="7">0</div>
+        <div class="stat-label">Classes (6-12)</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Browse by Class</h2>
+    <p class="section-subtitle">Select your class to find relevant study materials</p>
+    <div class="class-grid" id="classGrid"></div>
+  </section>
+
+  <section class="section" style="background: linear-gradient(135deg, #f0f9ff, #f5f3ff); border-radius: 24px; margin: 2rem auto;">
+    <h2 class="section-title">Popular Subjects</h2>
+    <p class="section-subtitle">Quick access to your favorite subjects</p>
+    <div class="subject-grid" id="subjectGrid"></div>
+  </section>
+
+  <section class="section" style="text-align: center;">
+    <h2 class="section-title">Ready to Start Learning?</h2>
+    <p class="section-subtitle">All resources are free and accessible instantly</p>
+    <a href="sample-papers.html" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 2rem;">Browse All Resources →</a>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>📚 VidyaFree</h3>
+      <p>Empowering students with free, quality education resources since 2024.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="sample-papers.html">Resources</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-bottom">© 2024 VidyaFree. Made with ❤️ for students everywhere.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources - VidyaFree</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><span class="logo-icon">📚</span> VidyaFree</a>
+      <div class="hamburger" onclick="toggleNav()">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sample-papers.html" class="active">Sample Papers</a></li>
+        <li><a href="sample-papers.html">NCERT Books</a></li>
+        <li><a href="sample-papers.html">eBooks</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero" style="padding-top: 100px; padding-bottom: 40px;">
+    <h1 style="font-size: 2.2rem;">All Study Resources</h1>
+    <p>NCERT books, sample papers, and eBooks — all in one place</p>
+    <div class="search-box" style="max-width: 500px; margin-top: 1.5rem;">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="paperSearch" placeholder="Search papers, books, subjects...">
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="papers-toolbar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="Class 10">Class 10</button>
+      <button class="filter-btn" data-filter="Class 12">Class 12</button>
+      <button class="filter-btn" data-filter="Mathematics">Mathematics</button>
+      <button class="filter-btn" data-filter="Science">Science</button>
+      <button class="filter-btn" data-filter="Physics">Physics</button>
+      <button class="filter-btn" data-filter="Chemistry">Chemistry</button>
+    </div>
+    <div class="papers-grid" id="papersGrid"></div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>📚 VidyaFree</h3>
+      <p>Empowering students with free, quality education resources.</p>
+      <div class="footer-bottom">© 2024 VidyaFree. Made with ❤️ for students everywhere.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
