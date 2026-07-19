@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 9 & 10 Sample Papers — VidyaFree</title>
+<meta name="description" content="Free subject-wise sample papers for Class 9 and Class 10 with answer keys.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="chalk-rule"></div>
+  <nav class="nav">
+    <a href="index.html" class="brand"><span class="brand-icon">📚</span><span>Vidya</span><span class="dot">Free</span></a>
+    <div class="nav-links">
+      <a href="index.html#classes">NCERT Books</a>
+      <a href="sample-papers.html">Sample Papers</a>
+      <a href="index.html#why">Why Us</a>
+      <a href="index.html#footer">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </nav>
+  <div id="mobileMenu" style="display:none;">
+    <a href="index.html#classes">NCERT Books</a>
+    <a href="sample-papers.html">Sample Papers</a>
+    <a href="index.html#why">Why Us</a>
+    <a href="index.html#footer">Contact</a>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:40px;">
+  <div class="wrap hero-inner">
+    <span class="eyebrow">Class 9 & 10</span>
+    <h1 style="font-size:clamp(1.8rem,4.5vw,2.6rem);">Sample papers, <span class="hl">subject by subject.</span></h1>
+    <p class="lead">Board-pattern practice papers with answer keys — filter by class and subject below.</p>
+  </div>
+  <div class="hero-pattern"></div>
+</section>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+      <div class="paper-toolbar">
+        <div class="paper-filters">
+          <button class="btn btn-primary" data-filter="all">All Papers</button>
+          <button class="btn btn-ghost" data-filter="9">Class 9</button>
+          <button class="btn btn-ghost" data-filter="10">Class 10</button>
+        </div>
+        <div class="paper-search">
+          <span class="search-icon-small">🔍</span>
+          <input type="text" id="paperSearchInput" placeholder="Search papers..." aria-label="Search papers">
+        </div>
+      </div>
+
+      <div class="paper-grid" id="paperGrid"></div>
+
+      <div class="empty-state" id="paperEmptyState" style="display:none;">
+        <div class="empty-icon">📭</div>
+        <h3>No papers found</h3>
+        <p>Try a different search term or check back later.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site" id="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4><span class="brand-icon">📚</span> VidyaFree</h4>
+        <p style="color:#B9B6A6; font-size:.88rem; max-width:32ch; margin-top:10px;">Free NCERT eBooks and sample papers for students from Nursery to Class 12.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="index.html#classes">NCERT Books</a>
+        <a href="sample-papers.html">Sample Papers</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="#" onclick="alert('Coming soon!')">About Us</a>
+        <a href="mailto:hello@vidyafree.in">Contact Us</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="#" onclick="alert('Coming soon!')">Privacy Policy</a>
+        <a href="#" onclick="alert('Coming soon!')">Terms & Conditions</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 VidyaFree. NCERT is the original publisher; content is provided free for educational use.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
